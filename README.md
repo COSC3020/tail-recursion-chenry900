@@ -18,3 +18,5 @@ Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
+
+Wouldn't doing tail recursion not change the runtime sinse it only has to go through each number once when it is building the array as it would only need to add on one more and the addition would be constant time so the run time would be O(n).

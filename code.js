@@ -11,7 +11,7 @@ function fib(n) {
 }
 
 function tailRecursive(iter, two, one, current, n) {
-  if (iter >= n) {
+  if (iter > n) {
     return current;
   }
   return tailRecursive((iter + 1), one, (two + one), current.concat(two + one));

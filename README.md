@@ -20,3 +20,6 @@ non-tail-recursive version? Why, or why not, and what is the complexity
 markdown file.
 
 Wouldn't doing tail recursion not change the runtime sinse it only has to go through each number once when it is building the array as it would only need to add on one more and the addition would be constant time so the run time would be O(n).
+
+the code and test code were copied from the fibonacci invariants that I did earlier this semester. Since it was expecting a full array I decided to have it return that.
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
